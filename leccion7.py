@@ -6,3 +6,4 @@
 #   - la versión de pip: pip --version
 #   - Los módulos instalados: pip list
 #   - Instalar un módulo: pip install nombreModulo
+#   - Desinstalar un módulo: pip uninstall nombreModulo
