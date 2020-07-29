@@ -96,3 +96,14 @@ print(cadenaL)
 # Split admite el caracter separador de las palabras
 cadena = 'SIERRA*BLANCO*ENRIQUE'
 print(cadena.split('*'))
+
+# Buscaruna subcadena en una cadena
+cadena = 'Enrique Sierra Blanco'
+subCadena = 'Sierra'
+posicion = cadena.find(subCadena)
+print('La subcadena {} se encuentra en la posición {} de la cadena {}'.format(subCadena, posicion, cadena))
+
+# Encontrar las posiciones de inicio y fin de una subcadena
+inicio = int(cadena.find(subCadena))
+fin = int(inicio) + int(len(subCadena))
+print(cadena[inicio:fin])
