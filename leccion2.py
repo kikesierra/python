@@ -1,7 +1,15 @@
 # ---------------------------------------------
 # ESTRUCTURAS DE CONTROL EN PYTHON
 #
-# Operadores lógicos
+# Operadores de asignación
+#   = Asigna al objeto de la izquierda el de la derecha
+#   += Suma el valor de la parte derecha y lo asigna (a += b ==> a = a + b)
+#   -= Resta el valor de la parte derecha y lo asigna (a -= b ==> a = a - b)
+#   *= Multiplica el valor de la parte derecha y lo asigna (a *= b ==> a = a * b)
+#   /= Divide el valor de la parte derecha y lo asigna (a /= b ==> a = a / b)
+#   **= Potencia el valor de la parte derecha y lo asigna (a **= b ==> a = a ** b)
+#
+# Operadores de comparación
 #   == Igual que
 #   != Distinto
 #   <> Diferente
@@ -9,14 +17,31 @@
 #   >  Mayor que
 #   <= Menor o igual que
 #   >= Mayor o igual que
-#   is Ambos lados son el mismo objeto
-#   in La colección del lado derecho contiene al elemento del lado izquierdo
 #
-# Operadores booleanos
+# Operadores lógicos
 #   and Operador Y
 #   or  Operador O
 #   not Operador negación
 #
+# Operadores de identidad
+#   is Ambos lados son el mismo objeto
+#   is not Los objetos de ambos lados son diferentes
+#
+frutas1 = ['peras', 'manzanas']
+frutas2 = ['peras', 'manzanas']
+frutas3 = frutas1
+
+resultado = frutas1 is frutas2  # Devolverá False
+resultado = frutas1 is frutas3  # Devolverá True
+
+# Operadores de pertenencia
+#   in La colección del lado derecho contiene al elemento del lado izquierdo
+#   not in La colección no contiene al elemento del lado izquierdo
+resultado = 'peras' in frutas1  # Devuelve True
+resultado = 'naranjas' in frutas2  # Devuelve False
+resultado = 'peras' not in frutas2  # Devuelve False
+resultado = 'naranjas' not in frutas2  # Devuelve True
+
 # Expresión condicional
 #    if expresion1:
 #       sentencias
