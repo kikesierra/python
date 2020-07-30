@@ -1,14 +1,15 @@
 # -----------------------------------------------------------
 # FICHEROS BINARIOS: módulo pickle
-# Permite almacenar estructuras como listas, tuplas, diccionarios, etc... en ficheros binarios
-# que pueden recuperarse de nuevo manteniendo la estructura original
+# Permite almacenar estructuras: listas, tuplas, diccionarios, etc...
+# en ficheros binarios # que pueden recuperarse de nuevo manteniendo
+# la estructura original
 # ------------------------------------------------------------
 import pickle  # Módulo para usar ficheros binarios
 
 colores = ['azul', 'rojo', 'verde', 'azul']  # Lista de colores
 
-# Grabar un fichero binario
-fichero = open('./fichero_colores.pckl','wb')  # Abrimos un fichero binario en formato pickle
+# Grabar un fichero binario en formato pickle
+fichero = open('./fichero_colores.pckl', 'wb')
 
 pickle.dump(colores, fichero)
 

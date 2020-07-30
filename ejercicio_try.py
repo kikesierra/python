@@ -8,7 +8,7 @@ try:
 
     resultado = misfunciones.operacion(float(num1), float(num2), float(num3))
 
-except ZeroDivisionError:  
+except ZeroDivisionError:
     resultado = 'No se puede dividir entre cero'
 
 except Exception:
@@ -18,4 +18,4 @@ else:
     print('El resultado de la operación es:')
 
 finally:
-    print('{r:1.2f}'.format(r=resultado))  # Devuelve el resultado con dos decimales
+    print('{r:1.2f}'.format(r=resultado))  # Resultado con dos decimales
