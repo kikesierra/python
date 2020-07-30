@@ -25,12 +25,12 @@ fichero.close()
 frutas = {'manzana': 'apple', 'naranja': 'orange', 'platano': 'banana', 'limón': 'lemon'}
 
 # Se crea el fichero binario con el contenido del diccionario
-fichero = open('./frutas.pckl', 'wb')
+fichero = open('./datos/frutas.pckl', 'wb')
 pickle.dump(frutas, fichero)
 fichero.close()
 
 # Leemos el diccionario del fichero
-fichero = open('./frutas.pckl', 'rb')
+fichero = open('./datos/frutas.pckl', 'rb')
 mis_frutas = pickle.load(fichero)
 fichero.close()
 

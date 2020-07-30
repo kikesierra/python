@@ -1,6 +1,6 @@
 import moduloFicheros
 
-fichero = moduloFicheros.Fichero('./prueba3.txt')
+fichero = moduloFicheros.Fichero('./datos/prueba3.txt')
 
 fichero.grabar_fichero()
 fichero.incluir_fichero('Mi primer texto')
