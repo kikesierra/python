@@ -8,3 +8,7 @@ def saludar(nombre):
 
 def despedirse(nombre):
     print(f'Adios {nombre}')
+
+
+def operacion(_v1, _v2, _v3):
+    return _v1 / (_v2 - _v3)

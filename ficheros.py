@@ -22,4 +22,3 @@ fichero.close()
 
 # Borrar un fichero de texto
 os.remove('./prueba2.txt')
-
