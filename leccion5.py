@@ -32,4 +32,3 @@ class Coche:
 
 coche1 = Coche('BMW', 'Azul', 'Gasoil', 2400)
 coche1.mostrar_caracteristicas()
-
