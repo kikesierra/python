@@ -8,7 +8,7 @@ print(ahora)
 print('Son las {} horas, {} minutos, del {} de {} de {}'.format(ahora.hour, ahora.minute, ahora.day, ahora.month, ahora.year))
 
 # Dar formato a la fecha
-fecha = ahora.strftime('%d-%m-%Y')
+fecha = ahora.strftime('%d-%m-%Y')  # Dia, mes y año con 4 dígitos
 print(fecha)
 
 # Crear un objeto de tipo fecha-hora
