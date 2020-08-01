@@ -21,3 +21,12 @@ nuevo_diccionario = json5.loads(texto_json)
 # Mostramos el contenido del diccionario y su tipo
 print(nuevo_diccionario)
 print(type(nuevo_diccionario))
+
+# Convertir una lista a JSON
+colores = ['rojo', 'verde', 'azul']
+
+texto = json5.dumps(colores)
+
+print(texto)
+print(type(colores))
+print(type(texto))
